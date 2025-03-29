@@ -6,11 +6,13 @@ export default function Sidebar() {
   return (
     <nav className="sidebar">
       <ul>
-        <li><Link to="/profile">👤 Profile</Link></li>
-        <li><Link to="/files">📂 Files</Link></li>
-        <li><Link to="/schedule">📅 Schedule</Link></li>
-        <li><Link to="/settings">⚙️ Settings</Link></li>
-        <li><Link to="/Clock"> Clock</Link></li>
+      <li><Link to="/Dashboard">☰</Link></li>
+        <li><Link to="/profile">👤</Link></li>
+        <li><Link to="/files">📂</Link></li>
+        <li><Link to="/schedule">📅</Link></li>
+        <li><Link to="/Clock"> 🕗</Link></li>
+        <li><Link to="/settings">⚙️</Link></li>
+        
       </ul>
     </nav>
   );

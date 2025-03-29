@@ -3,7 +3,6 @@
   height: 100vh;
   background-color: rgb(6, 88, 97);
   color: rgb(6, 88, 97);
-  padding: 20px;
   position: fixed;
   left: 0;
   top: 0;
@@ -32,7 +31,7 @@
 }
 
 .sidebar ul li a:hover {
-  text-decoration: underline;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .home-container {
@@ -40,6 +39,6 @@
 }
 
 .content {
-  margin-left: 270px;
+  margin-left: 100px;
   padding: 20px;
 }
